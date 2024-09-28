@@ -33,35 +33,18 @@
 ## Installation
 
 ## Screenshots 
-![https://res.cloudinary.com/dxzniberu/image/upload/v1727547107/Screenshot_20_m9wk5v.png]
-![https://res.cloudinary.com/dxzniberu/image/upload/v1727547058/Screenshot_21_manh1d.png]
-![https://res.cloudinary.com/dxzniberu/image/upload/v1727547057/Screenshot_22_zbf4no.png]
+![Screenshot1](https://res.cloudinary.com/dxzniberu/image/upload/v1727547107/Screenshot_20_m9wk5v.png)
+
+![Screenshot2](https://res.cloudinary.com/dxzniberu/image/upload/v1727547058/Screenshot_21_manh1d.png)
+
+![Screenshot3](https://res.cloudinary.com/dxzniberu/image/upload/v1727547057/Screenshot_22_zbf4no.png)
 
 Follow these steps to set up and run the project locally:
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Sahiljain0/Ecomm-p.git
-eCart/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── Cart/
-│   │   ├── Header/
-│   │   └── Product/
-│   ├── pages/
-│   │   ├── Home.js
-│   │   ├── ProductPage.js
-│   │   └── CartPage.js
-│   ├── redux/
-│   │   ├── actions/
-│   │   ├── reducers/
-│   │   └── store.js
-│   ├── App.js
-│   ├── index.js
-│   └── App.css
-├── README.md
+
 └── package.json
 
 Here’s the full README.md content in code format, complete with sections on installation, usage, and placeholder images for screenshots. You can copy and paste this directly into your project:
