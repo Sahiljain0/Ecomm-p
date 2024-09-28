@@ -19,8 +19,8 @@ const CartItem = ({post,postIndex}) => {
       <img className='h-44 w-48 object-contain ' src={post.image}/>
       </div>
       <div className='flex flex-col justify-center gap-4 items-start w-[50%]'>
-        <p className='font-bold text-gray-700 text-xl'>{title}</p>
-        <p className='text-sm font-semibold text-gray-500'>{description}</p>
+        <p className='font-bold text-gray-700 text-md md:text-xl'>{title}</p>
+        <p className='md:text-sm text-xs font-semibold text-gray-500'>{description}</p>
         <div className='flex flex-row justify-between w-full pr-6'>
           <p className='font-bold text-green-600'>${post.price}</p>
           <button className='text-2xl text-red-600 bg-red-300 rounded-full p-1' onClick={removeHandler}><MdDelete /></button>

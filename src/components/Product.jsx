@@ -19,12 +19,12 @@ const Product = ({ post }) => {
 
 
   const {cart} = useSelector((state) => state);
-  const description = post.description.slice(0,51)+ "...";
+  const description = post.description.slice(0,48)+ "...";
   const title = post.title.slice(0,17)+"...";
   return (
     <div className="flex group hover:scale-105 bg-gray-50 hover:bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition-all ease-in-out duration-500 flex-col lg:w-60 md:w-56  w-full   border-[1px] hover:shadow-none  rounded-md gap-4 px-2 h-[350px] mt-4 justify-center items-center">
       <div className="mt-2">
-        <p className="md:text-md text-xl font-semibold text-gray-700">{title}</p>
+        <p className="md:text-md text-lg lowercase font-semibold text-gray-700">{title}</p>
       </div>
       <div className="px-6 flex items-center justify-center">
         <p className="md:text-[12px] text-sm">{description}</p>
