@@ -26,11 +26,11 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="flex flex-col justify-center items-center gap-8 mt-6">
+    <div className="flex flex-col justify-center items-center gap-8 my-10">
       {loading ? (
         <Spinner />
       ) : posts.length > 0 ? (
-        <div className="grid grid-cols-4 justify-center  items-center gap-6">
+        <div className="grid grid-cols-1  px-12 md:px-2 md:grid-cols-3 lg:grid-cols-4 justify-center  items-center gap-6">
           {posts.map((post) => (
             <Product key={post.id} post={post} />
           ))}
