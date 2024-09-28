@@ -16,7 +16,7 @@ const CartItem = ({post,postIndex}) => {
   return (
     <div className='flex border-[1px] rounded-md border-gray-300 justify-center gap-4 flex-row w-full h-56'>
       <div className='flex justify-center items-center h-56 w-[40%]'>
-      <img className='h-44 w-auto object-contain ' src={post.image}/>
+      <img className='h-44 w-48 object-contain ' src={post.image}/>
       </div>
       <div className='flex flex-col justify-center gap-4 items-start w-[50%]'>
         <p className='font-bold text-gray-700 text-xl'>{title}</p>

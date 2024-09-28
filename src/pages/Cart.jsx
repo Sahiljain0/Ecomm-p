@@ -13,7 +13,7 @@ const Cart = () => {
   }, [cart]);
 
   return (
-    <div className=" flex w-full mt-10 items-center justify-center ">
+    <div className=" flex w-full my-10 items-center justify-center ">
       {cart.length > 0 ? (
         <div className="flex  justify-center gap-2 flex-row w-ful">
           <div className="flex flex-col gap-2 w-[60%]">
