@@ -89,10 +89,6 @@ Copy code
 
 Follow these steps to set up and run the project locally:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/ecart.git
-Navigate to the project directory:
 
 bash
 Copy code
@@ -123,31 +119,6 @@ bash
 Copy code
 npm run build
 The optimized production files will be located in the build/ folder, ready for deployment.
-
-Project Structure
-bash
-Copy code
-eCart/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── Cart/
-│   │   ├── Header/
-│   │   └── Product/
-│   ├── pages/
-│   │   ├── Home.js
-│   │   ├── ProductPage.js
-│   │   └── CartPage.js
-│   ├── redux/
-│   │   ├── actions/
-│   │   ├── reducers/
-│   │   └── store.js
-│   ├── App.js
-│   ├── index.js
-│   └── App.css
-├── README.md
-└── package.json
 
 ## Key Folders
 components/: Contains reusable components like Cart, Header, and Product.

@@ -14,9 +14,9 @@ const CartItem = ({post,postIndex}) => {
     toast.success("Item removed successfully");
    }
   return (
-    <div className='flex border-[1px] rounded-md border-gray-300 justify-center gap-4 flex-row w-full h-56'>
-      <div className='flex justify-center items-center h-56 w-[40%]'>
-      <img className='h-44 w-48 object-contain ' src={post.image}/>
+    <div className='flex border-[1px] rounded-md border-gray-300 justify-center gap-4 flex-row w-full h-44 md:h-56'>
+      <div className='flex justify-center items-center md:h-56 h-44 w-[40%]'>
+      <img className='md:h-44 md:w-48 h-32 w-28 object-contain ' src={post.image}/>
       </div>
       <div className='flex flex-col justify-center gap-4 items-start w-[50%]'>
         <p className='font-bold text-gray-700 text-md md:text-xl'>{title}</p>
