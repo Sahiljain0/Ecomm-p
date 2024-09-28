@@ -4,7 +4,7 @@ const Product = ({ post }) => {
   const description = post.description.slice(0,51)+ "...";
   const title = post.title.slice(0,17)+"...";
   return (
-    <div className="flex flex-col lg:w-60 md:w-56  w-full   border-[1px] border-gray-400 rounded-md gap-4 px-2 h-[350px] mt-4 justify-center items-center">
+    <div className="flex hover:scale-105 shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition-all ease-in-out duration-500 flex-col lg:w-60 md:w-56  w-full   border-[1px] border-gray-400 rounded-md gap-4 px-2 h-[350px] mt-4 justify-center items-center">
       <div className="mt-2">
         <p className="md:text-md text-xl font-semibold text-gray-700">{title}</p>
       </div>
